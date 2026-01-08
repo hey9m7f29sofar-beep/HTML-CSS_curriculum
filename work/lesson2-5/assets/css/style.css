@@ -1,4 +1,40 @@
 @charset "UTF-8";
-.l-wrapper {
-  padding: 64px 0;
+.c-title{
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 40px;
+  font-size: 24px;
+}
+
+.c-title_sub{
+  margin-bottom: 16px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #8c97ff;
+  padding: 0%4px;
+  border-radius: 9999px;
+  line-height: 1;
+  display: inline-block;
+}
+
+.c-image{
+  margin-top: 28px;
+  text-align: center;
+}
+
+.c-logo{
+  margin-left: 28px;
+  font-size: 18px;
+}
+
+.text{
+  margin-top: 12px;
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+.list{
+  font-size: 12px;
+  background-color: #eee;
+  display: inline-block;
 }
