@@ -1,4 +1,9 @@
-@charset "UTF-8";
+@charset "UTF-8"
+.main{
+  width: 1280px;
+}
+
+
 .c-title{
   text-align: center;
   margin-top: 60px;
@@ -17,7 +22,18 @@
   display: inline-block;
 }
 
+.info{
+  width: 500px;
+  height: 450px;
+  border: solid 1px black;
+  border-radius: 20PX;
+  box-shadow: #ccccff;
+}
+
+
 .c-image{
+  margin-left: 50px;
+  margin-right: 1px;
   margin-top: 28px;
   text-align: center;
 }
