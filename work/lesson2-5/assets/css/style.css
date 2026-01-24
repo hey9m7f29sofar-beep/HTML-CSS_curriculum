@@ -1,8 +1,12 @@
-@charset "UTF-8"
-.main{
-  width: 1280px;
+@charset "UTF-8";
+.group{
 }
 
+.pick-up{
+  margin: auto;
+  width: 50px;
+  height: 45px;
+}
 
 .c-title{
   text-align: center;
@@ -11,46 +15,67 @@
   font-size: 24px;
 }
 
-.c-title_sub{
+.c-title-sub{
   margin-bottom: 16px;
   font-size: 16px;
   color: #fff;
   background-color: #8c97ff;
   padding: 0%4px;
   border-radius: 9999px;
-  line-height: 1;
-  display: inline-block;
+  width: 64px;
+  height: 32px;
+  text-align: center;
 }
 
 .info{
-  width: 500px;
-  height: 450px;
+  margin: 0 auto;
+  width: 800px;
+  height: 500px;
   border: solid 1px black;
   border-radius: 20PX;
-  box-shadow: #ccccff;
+  box-shadow:16px 16px  #ccccff;
 }
 
 
 .c-image{
-  margin-left: 50px;
-  margin-right: 1px;
   margin-top: 28px;
   text-align: center;
 }
 
 .c-logo{
-  margin-left: 28px;
   font-size: 18px;
+  margin-bottom: 12px;
 }
 
+.info-detail{
+  padding:0px 28px;
+}
+
+
 .text{
-  margin-top: 12px;
   margin-bottom: 8px;
   font-size: 14px;
 }
 
 .list{
+  margin-bottom: 24px;
   font-size: 12px;
   background-color: #eee;
   display: inline-block;
+}
+
+.price{
+  font-size: 16px;
+}
+
+.c-price{
+  font-size: 12px;
+}
+
+/* .tags{
+  color:#8c97ff;
+} */
+
+a{
+  color:#8c97ff ;
 }
