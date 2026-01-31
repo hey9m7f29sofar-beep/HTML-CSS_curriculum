@@ -1,39 +1,43 @@
 @charset "UTF-8";
 
+.content {
+  margin: auto;
+  width: 800px;
+}
+
 .pick-up {
   margin: auto;
-  width: 50px;
+  width: 800px;
   height: 45px;
 }
 
 .c-title {
   text-align: center;
-  margin-top: 60px;
-  margin-bottom: 40px;
+  margin: 60px auto 40px;
   font-size: 24px;
 }
 
-.c-title-sub {
+.c-titleSub {
+  display: block;
   margin-bottom: 16px;
   font-size: 16px;
   color: #fff;
   background-color: #8c97ff;
-  padding: 4px;
+  padding: 3px;
   border-radius: 9999px;
-  width: 64px;
-  height: 32px;
+  width: 80px;
+  height: 20px;
   text-align: center;
 }
 
 .info {
-  margin: 0 auto;
+  margin: auto;
   width: 800px;
   height: 500px;
   border: solid 1px black;
-  border-radius: 20PX;
+  border-radius: 20px;
   box-shadow:16px 16px  #ccccff;
 }
-
 
 .c-image {
   margin-top: 28px;
@@ -45,10 +49,9 @@
   margin-bottom: 12px;
 }
 
-.info-detail {
-  padding:0px 28px;
+.infoDetail {
+  padding:0 28px;
 }
-
 
 .text {
   margin-bottom: 8px;
@@ -69,7 +72,6 @@
 .c-price {
   font-size: 12px;
 }
-
 
 a {
   color:#8c97ff ;
