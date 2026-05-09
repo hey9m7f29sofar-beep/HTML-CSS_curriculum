@@ -13,39 +13,45 @@
     <link rel="stylesheet" href="assets/css/style.css">
   </head>
   <body>
-    <h1 class="c-title">-Catalog-</h1>
-    <main class="main">
-      <div class="group"></div>
-      <div class="content"></div>
-        <div class="pick-up">
-          <h2 class="c-titleSub">PickUp</h2>
+    <h1 class="c-catalog__title">-Catalog-</h1>
+    <main class="c-catalog__main">
+      <div class="c-catalog__group">
+      <div class="c-catalog__content">
+        <div class="c-catalog__pickup">
+          <h2 class="c-catalog__pickup-title">PickUp</h2>
         </div>
 
         <!-- pick upはここから -->
-        <div class="info">
-          <div class="c-image">
+        <div class="c-catalog__info">
+          <div class="c-catalog__image">
             <img src ="assets/images/lesson2/img_pickup.jpg" alt="スマートウォッチ画像">
           </div>
-        <section class="infoDetail">
-          <h3 class="c-logo">スマートウォッチ<img class="c-imageSub" src ="assets/images/lesson2/logo_pickup.png" alt="カート"></h3>
-          <p class="text">洗練されたデザインと最先端の機能を兼ね備えたスマートウォッチです。</p>
+        <div>
+      <section class="c-catalog__detail">
+        <h3 class="c-catalog__contentsTitle">
+          スマートウォッチ
+          <img class="c-catalog__image" src ="assets/images/lesson2/logo_pickup.png" alt="カート">
+      </h3>
+        <p class="c-catalog__description">洗練されたデザインと最先端の機能を兼ね備えたスマートウォッチです。</p>
 
-          <span class="list">カラー：モカグレー</span>
-          <span class="list">サイズ：S/M/L</span>
-          <span class="list">バッテリー：最大7日間</span>
-          <span class="list">充電時間：約２時間</span>
+        <p class="c-catalog__specs">
+          <span class="c-catalog__spec">カラー：モカグレー</span>
+          <span class="c-catalog__spec">サイズ：S/M/L</span>
+          <span class="c-catalog__spec">バッテリー：最大7日間</span>
+          <span class="c-catalog__spec">充電時間：約２時間</span>
+        </p>
 
-          <p class="productPrice">
-            <span class="c-price">&yen;</span>
-            <span class="price">19,800</span>
-            <span class="c-price">(税込)</span>
-          </p>
+        <p class="c-catalog__price">
+          <span class="c-catalog__yen">&yen;</span>
+          <span class="c-catalog__value">19,800</span>
+          <span class="c-catalog__tax">(税込)</span>
+        </p>
 
-          <ul class="tags">
-            <li><a href="">#おしゃれ</a></li>
-            <li><a href="">#シンプル</a></li>
-            <li><a href="">#普段使い</a></li>
-          </ul>
+        <ul class="c-catalog__tags">
+          <li><a class="c-catalog__tags-link" href=""">#おしゃれ</a></li>
+          <li><a class="c-catalog__tags-link" href="">#シンプル</a></li>
+          <li><a class="c-catalog__tags-link" href="">#普段使い</a></li>
+        </ul>
         </section>
       </div>
     </main>
