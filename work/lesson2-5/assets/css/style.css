@@ -1,11 +1,11 @@
 @charset "UTF-8";
 
-.c-catalog__content {
+.p-catalog__content {
   margin: auto;
   width: 800px;
 }
 
-.c-catalog__pickup {
+.p-catalog__pickup {
   margin: auto;
   width: 800px;
 }
@@ -28,9 +28,8 @@
   text-align: center;
 }
 
-.c-catalog__info {
+.p-catalog__info {
   margin: auto;
-  width: 800px;
   border: solid 1px black;
   border-radius: 20px;
   box-shadow:16px 16px  #ccccff;
@@ -40,6 +39,8 @@
 
 .c-catalog__image {
   text-align: center;
+  max-width: 100%;
+  height: auto;
 }
 
 .c-catalog__contentsTitle {
@@ -72,7 +73,7 @@
   font-size: 12px;
 }
 
-.c-catalog__tags{
+.p-catalog__tags{
   font-size: 14px;
   color:#8c97ff ;
 }
