@@ -13,47 +13,45 @@
     <link rel="stylesheet" href="assets/css/style.css">
   </head>
   <body>
-    <h1 class="c-catalog__title">-Catalog-</h1>
     <main class="l-main">
-      <div class="p-catalog__group">
+      <div class="p-catalog">
+        <h1 class="c-title">-Catalog-</h1>
         <div class="p-catalog__content">
-          <div class="p-catalog__pickup">
-            <h2 class="c-catalog__pickup-title">PickUp</h2>
-          </div>
+          <h2 class="c-heading">PickUp</h2>
           <!-- pick upはここから -->
           <div class="p-catalog__info">
-            <div class="c-catalog__image">
-              <img src ="assets/images/lesson2/img_pickup.jpg" alt="スマートウォッチ画像">
+            <div class="c-image">
+              <img src="assets/images/lesson2/img_pickup.jpg" alt="スマートウォッチ画像">
             </div>
 
-            <section class="p-catalog__detail">
-              <h3 class="c-catalog__contentsTitle">
-                スマートウォッチ
-                <img class="c-catalog__image" src ="assets/images/lesson2/logo_pickup.png" alt="カート">
+            <div class="p-catalog__detail">
+              <h3 class="c-card-title">
+              スマートウォッチ
+                <img class="c-image--small" src ="assets/images/lesson2/logo_pickup.png" alt="カート">
               </h3>
-              <p class="c-catalog__description">洗練されたデザインと最先端の機能を兼ね備えたスマートウォッチです。</p>
+              <p class="p-catalog__description">洗練されたデザインと最先端の機能を兼ね備えたスマートウォッチです。</p>
 
-              <p class="c-catalog__specs">
-                <span class="c-catalog__spec">カラー：モカグレー</span>
-                <span class="c-catalog__spec">サイズ：S/M/L</span>
-                <span class="c-catalog__spec">バッテリー：最大7日間</span>
-                <span class="c-catalog__spec">充電時間：約２時間</span>
+              <p class="p-catalog__specs">
+                <span class="p-catalog__spec">カラー：モカグレー</span>
+                <span class="p-catalog__spec">サイズ：S/M/L</span>
+                <span class="p-catalog__spec">バッテリー：最大7日間</span>
+                <span class="p-catalog__spec">充電時間：約２時間</span>
               </p>
 
-              <p class="c-catalog__price">
-                <span class="c-catalog__yen">&yen;</span>
-                <span class="c-catalog__value">19,800</span>
-                <span class="c-catalog__tax">(税込)</span>
+              <p class="p-catalog__price">
+                <span class="p-catalog__yen">&yen;</span>
+                <span class="p-catalog__value">19,800</span>
+                <span class="p-catalog__tax">(税込)</span>
               </p>
 
               <ul class="p-catalog__tags">
-                <li><a class="c-catalog__tags--link" href="">#おしゃれ</a></li>
-                <li><a class="c-catalog__tags--link" href="">#シンプル</a></li>
-                <li><a class="c-catalog__tags--link" href="">#普段使い</a></li>
+                <li><a class="c-tag" href="">#おしゃれ</a></li>
+                <li><a class="c-tag" href="">#シンプル</a></li>
+                <li><a class="c-tag" href="">#普段使い</a></li>
               </ul>
-            </section>
+            </div><!-- p-catalog__detail close-->
           </div><!-- p-catalog__info close -->
         </div><!-- p-catalog__content close -->
-      </div><!-- p-catalog__group close -->
-    </main>
+      </div><!-- p-catalog close -->
+    </main><!-- l-main close -->
   </body>
