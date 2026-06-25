@@ -104,3 +104,75 @@
   font-size: 14px;
   text-decoration: underline;
 }
+
+/* ここから下はlesson3で追加したコードです */
+.p-product {
+  max-width: 1200px;
+  margin: 96px auto 160px;
+  padding: 0 20px;
+}
+
+.c-heading--new {
+  display: inline-block;
+  margin-bottom:16px;
+  font-size:16px;
+  background-color:#7fe6a8;
+  color:#fff;
+}
+
+.p-product__list{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px 24px;
+  padding:0;
+}
+
+.p-product__item {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 16px;
+  border: 1px solid #000;
+  border-radius: 20px;
+  box-shadow: 6px 6px 0 #7fe6a8;
+  box-sizing: border-box;
+}
+
+.p-product__image {
+  width: 100px;
+  flex-shrink: 0;
+}
+
+.p-product__content {
+  display: flex;
+  flex-direction: column;
+  margin-left: 16px;
+  gap: 8px;
+}
+
+.p-product__title {
+  font-size: 12px;
+}
+
+.p-product__price {
+  font-size: 16px;
+  margin: 0;
+}
+
+.p-product__tax {
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.c-button {
+  height: 20px;
+  border-radius: 9999px;
+  font-size: 10px;
+}
+
+.c-button:hover {
+  background-color: #333;
+  color: #fff;
+  border-color: #333;
+  }
+
