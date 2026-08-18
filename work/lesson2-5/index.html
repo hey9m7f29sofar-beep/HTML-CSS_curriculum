@@ -13,16 +13,15 @@
     <link rel="stylesheet" href="assets/css/style.css">
   </head>
   <body>
-    <main class="l-main">
-      <div class="l-wrap">
+    <div class="l-wrap">
+      <main class="l-main">
         <section class="p-catalog">
           <h1 class="c-title">-Catalog-</h1>
           <div class="p-catalog__content">
-            <h2 class="c-heading">PickUp</h2>
-            <!-- pick upはここから -->
+            <h2 class="c-badge c-badge--purple">PickUp</h2>
             <div class="p-catalog__info">
               <div class="c-image">
-                <img src="assets/images/lesson2/img_pickup.jpg" alt="スマートウォッチ画像">
+                <img class="c-image__img" src="assets/images/lesson2/img_pickup.jpg" alt="スマートウォッチ画像">
               </div>
 
               <div class="p-catalog__detail">
@@ -39,10 +38,10 @@
                   <span class="p-catalog__spec">充電時間：約２時間</span>
                 </p>
 
-                <p class="p-catalog__price">
-                  <span class="p-catalog__yen">&yen;</span>
-                  <span class="p-catalog__value">19,800</span>
-                  <span class="p-catalog__tax">(税込)</span>
+                <p class="c-price u-mt-24">
+                  <span class="c-price__symbol">&yen;</span>
+                  <span class="c-price__value">19,800</span>
+                  <span class="c-price__tax">(税込)</span>
                 </p>
 
                 <ul class="p-catalog__tags">
@@ -50,130 +49,129 @@
                   <li><a class="c-tag" href="">#シンプル</a></li>
                   <li><a class="c-tag" href="">#普段使い</a></li>
                 </ul>
-              </div><!-- p-catalog__detail close-->
-            </div><!-- p-catalog__info close -->
-          </div><!-- p-catalog__content close -->
-        </section><!-- p-catalog close -->
+              </div>
+            </div>
+          </div>
+        </section>
 
-        <!-- newはここから -->
         <section class="p-product">
-          <h2 class="c-heading c-heading--new">New</h2>
+          <h2 class="c-badge c-badge--green">New</h2>
           <ul class="p-product__list">
-            <!--ワイヤレスイヤホン -->
             <li class="p-product__item">
               <div class="p-product__image">
-                <img src="assets/images/lesson3/img_new_01.jpg" alt="ワイヤレスイヤホン">
+                <img class="c-image__img" src="assets/images/lesson3/img_new_01.jpg" alt="ワイヤレスイヤホン">
               </div>
               <div class="p-product__content">
-                <h3 class="p-product__title">ワイヤレスイヤホン</h3>
-                <p class="p-product__price">
-                  <span class="c-product__yen">&yen;</span>
-                  <span class="c-product__value">7,990</span>
-                  <span class="c-product__tax">(税込)</span>
+                <h3 class="c-product-title">ワイヤレスイヤホン</h3>
+                <p class="c-price">
+                  <span class="c-price__symbol">&yen;</span>
+                  <span class="c-price__value">7,990</span>
+                  <span class="c-price__tax">(税込)</span>
                 </p>
                 <button class="c-button" type="button">商品詳細</button>
               </div>
             </li>
-            <!--空気清浄機-->
+            
             <li class="p-product__item">
               <div class="p-product__image">
-                <img src="assets/images/lesson3/img_new_02.jpg" alt="空気清浄機">
+                <img class="c-image__img" src="assets/images/lesson3/img_new_02.jpg" alt="空気清浄機">
               </div>
               <div class="p-product__content">
-                <h3 class="p-product__title">空気清浄機</h3>
-                <p class="p-product__price">
-                  <span class="c-product__yen">&yen;</span>
-                  <span class="c-product__value">20,474</span>
-                  <span class="c-product__tax">(税込)</span>
+                <h3 class="c-product-title">空気清浄機</h3>
+                <p class="c-price">
+                  <span class="c-price__symbol">&yen;</span>
+                  <span class="c-price__value">20,474</span>
+                  <span class="c-price__tax">(税込)</span>
                 </p>
                 <button class="c-button" type="button">商品詳細</button>
               </div>
             </li>
-            <!--モバイルバッテリー-->
+            
             <li class="p-product__item">
-              <img class="p-product__image">
-                <img src="assets/images/lesson3/img_new_03.jpg" alt="モバイルバッテリー">
+              <div class="p-product__image">
+                <img class="c-image__img" src="assets/images/lesson3/img_new_03.jpg" alt="モバイルバッテリー">
+              </div>
               <div class="p-product__content">
-                <h3 class="p-product__title">モバイルバッテリー</h3>
-                <p class="p-product__price">
-                  <span class="c-product__yen">&yen;</span>
-                  <span class="c-product__value">4,990</span>
-                  <span class="c-product__tax">(税込)</span>
+                <h3 class="c-product-title">モバイルバッテリー</h3>
+                <p class="c-price">
+                  <span class="c-price__symbol">&yen;</span>
+                  <span class="c-price__value">4,990</span>
+                  <span class="c-price__tax">(税込)</span>
                 </p>
                 <button class="c-button" type="button">商品詳細</button>
               </div>
             </li>
-            <!--充電ケーブル-->
+            
             <li class="p-product__item">
               <div class="p-product__image">
-                <img src="assets/images/lesson3/img_new_04.jpg" alt="充電ケーブル">
+                <img class="c-image__img" src="assets/images/lesson3/img_new_04.jpg" alt="充電ケーブル">
               </div>
               <div class="p-product__content">
-                <h3 class="p-product__title">充電ケーブル</h3>
-                <p class="p-product__price">
-                  <span class="c-product__yen">&yen;</span>
-                  <span class="c-product__value">1,440</span>
-                  <span class="c-product__tax">(税込)</span>
+                <h3 class="c-product-title">充電ケーブル</h3>
+                <p class="c-price">
+                  <span class="c-price__symbol">&yen;</span>
+                  <span class="c-price__value">1,440</span>
+                  <span class="c-price__tax">(税込)</span>
                 </p>
                 <button class="c-button" type="button">商品詳細</button>
               </div>
             </li>
-            <!--スマートスピーカー-->
+            
             <li class="p-product__item">
               <div class="p-product__image">
-                <img src="assets/images/lesson3/img_new_05.jpg" alt="スマートスピーカー">
+                <img class="c-image__img" src="assets/images/lesson3/img_new_05.jpg" alt="スマートスピーカー">
               </div>
               <div class="p-product__content">
-                <h3 class="p-product__title">スマートスピーカー</h3>
-                <p class="p-product__price">
-                  <span class="c-product__yen">&yen;</span>
-                  <span class="c-product__value">7,990</span>
-                  <span class="c-product__tax">(税込)</span>
+                <h3 class="c-product-title">スマートスピーカー</h3>
+                <p class="c-price">
+                  <span class="c-price__symbol">&yen;</span>
+                  <span class="c-price__value">7,990</span>
+                  <span class="c-price__tax">(税込)</span>
                 </p>
                 <button class="c-button" type="button">商品詳細</button>
               </div>
             </li>
-            <!--ロボット掃除機-->
+            
             <li class="p-product__item">
               <div class="p-product__image">
-                <img src="assets/images/lesson3/img_new_06.jpg" alt="ロボット掃除機">
+                <img class="c-image__img" src="assets/images/lesson3/img_new_06.jpg" alt="ロボット掃除機">
               </div>
               <div class="p-product__content">
-                <h3 class="p-product__title">ロボット掃除機</h3>
-                <p class="p-product__price">
-                  <span class="c-product__yen">&yen;</span>
-                  <span class="c-product__value">24,800</span>
-                  <span class="c-product__tax">(税込)</span>
+                <h3 class="c-product-title">ロボット掃除機</h3>
+                <p class="c-price">
+                  <span class="c-price__symbol">&yen;</span>
+                  <span class="c-price__value">24,800</span>
+                  <span class="c-price__tax">(税込)</span>
                 </p>
                 <button class="c-button" type="button">商品詳細</button>
               </div>
             </li>
-            <!--デスクトップPC-->
+            
             <li class="p-product__item">
               <div class="p-product__image">
-                <img src="assets/images/lesson3/img_new_07.jpg" alt="デスクトップPC">
+                <img class="c-image__img" src="assets/images/lesson3/img_new_07.jpg" alt="デスクトップPC">
               </div>
               <div class="p-product__content">
-                <h3 class="p-product__title">デスクトップPC</h3>
-                <p class="p-product__price">
-                  <span class="c-product__yen">&yen;</span>
-                  <span class="c-product__value">27,800</span>
-                  <span class="c-product__tax">(税込)</span>
+                <h3 class="c-product-title">デスクトップPC</h3>
+                <p class="c-price">
+                  <span class="c-price__symbol">&yen;</span>
+                  <span class="c-price__value">27,800</span>
+                  <span class="c-price__tax">(税込)</span>
                 </p>
                 <button class="c-button" type="button">商品詳細</button>
               </div>
             </li>
-            <!--電子レンジ-->
+            
             <li class="p-product__item">
               <div class="p-product__image">
-                <img src="assets/images/lesson3/img_new_08.jpg" alt="電子レンジ">
+                <img class="c-image__img" src="assets/images/lesson3/img_new_08.jpg" alt="電子レンジ">
               </div>
               <div class="p-product__content">
-                <h3 class="p-product__title">電子レンジ</h3>
-                <p class="p-product__price">
-                  <span class="c-product__yen">&yen;</span>
-                  <span class="c-product__value">8,400</span>
-                  <span class="c-product__tax">(税込)</span>
+                <h3 class="c-product-title">電子レンジ</h3>
+                <p class="c-price">
+                  <span class="c-price__symbol">&yen;</span>
+                  <span class="c-price__value">8,400</span>
+                  <span class="c-price__tax">(税込)</span>
                 </p>
                 <button class="c-button" type="button">商品詳細</button>
               </div>
@@ -181,6 +179,6 @@
           </ul>
         </section>
       </div>
-    </main><!-- l-main close -->
+    </main>
   </body>
 </html>

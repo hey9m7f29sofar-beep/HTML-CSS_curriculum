@@ -3,17 +3,11 @@
 .l-wrap {
   max-width: 1200px;
   margin: 96px auto 160px;
-  padding: 0 20px;
 }
 
-.p-catalog {
-  padding-top: 64px;
-}
-
-.p-catalog__content {
+.p-catalog{
   width: 800px;
   margin: 0 auto;
-  margin-bottom: 64px;
 }
 
 .c-title {
@@ -23,16 +17,19 @@
   text-align: center;
 }
 
-.c-heading {
+.c-badge {
   width: 80px;
   margin-bottom: 16px;
   padding: 3px 0;
   border-radius: 9999px;
-  background-color: #8c97ff;
   color: #fff;
   font-size: 16px;
   font-weight: bold;
   text-align: center;
+}
+
+.c-badge--purple {
+  background-color: #8c97ff;
 }
 
 .p-catalog__info {
@@ -47,7 +44,7 @@
   text-align: center;
 }
 
-.c-image img {
+.c-image__img {
   max-width: 100%;
   height: auto;
 }
@@ -84,19 +81,6 @@
   font-size: 12px;
 }
 
-.p-catalog__price {
-  margin-top: 24px;
-  font-size: 16px;
-}
-
-.p-catalog__yen {
-  font-size: 16px;
-}
-
-.p-catalog__tax {
-  font-size: 12px;
-}
-
 .p-catalog__tags {
   margin-top: 24px;
 }
@@ -111,12 +95,34 @@
   text-decoration: underline;
 }
 
-/* ここから下はlesson3で追加したコードです */
+.c-price {
+  font-size: 16px;
+}
 
-.c-heading--new {
+.c-price__symbol {
+  font-size: 16px;
+}
+
+.c-price__value {
+  font-size: 16px;
+}
+
+.c-price__tax {
+  font-size: 12px;
+}
+
+.u-mt-24 {
+  margin-top: 24px;
+}
+
+.c-badge{
   display: inline-block;
   margin-bottom:16px;
   font-size:16px;
+  border-radius: 9999px;
+}
+
+.c-badge--green {
   background-color:#7fe6a8;
   color:#fff;
 }
@@ -142,35 +148,22 @@
 
 .p-product__image img{
   width: 100px;
+  display: block;
 }
 
 .p-product__content {
   display: flex;
   flex-direction: column;
-  margin-left: 16px;
-  gap: 8px;
+  gap: 16px;
 }
 
-.p-product__title {
+.c-product-title {
   font-size: 12px;
-}
-
-.p-product__price {
-  font-size: 16px;
-  margin: 0;
-}
-
-.c-product__yen {
-  font-size:14px
-}
-
-.c-product__tax {
-  font-size: 12px;
-  font-weight: normal;
 }
 
 .c-button {
-  height: 20px;
+  min-width: 100px;
+  padding: 5px 16px;
   border-radius: 9999px;
   font-size: 10px;
   cursor:pointer;
