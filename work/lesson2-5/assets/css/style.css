@@ -3,11 +3,12 @@
 .l-wrap {
   max-width: 1200px;
   margin: 96px auto 160px;
+  padding: 0 20px;
 }
 
 .p-catalog{
   width: 800px;
-  margin: 0 auto;
+  margin: 0 auto 96px;
 }
 
 .c-title {
@@ -45,6 +46,7 @@
 }
 
 .c-image__img {
+  display: inline-block;
   max-width: 100%;
   height: auto;
 }
@@ -146,19 +148,14 @@
   min-width:280px;
 }
 
-.p-product__image img{
-  width: 100px;
-  display: block;
-}
-
 .p-product__content {
   display: flex;
   flex-direction: column;
   gap: 16px;
 }
 
-.c-product-title {
-  font-size: 12px;
+.c-title--sizeM {
+  font-size: 16px;
 }
 
 .c-button {
@@ -173,5 +170,5 @@
   background-color: #333;
   color: #fff;
   border-color: #333;
-  }
+}
 
