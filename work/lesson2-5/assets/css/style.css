@@ -1,12 +1,15 @@
 @charset "UTF-8";
 
-.p-catalog {
-  padding-top: 64px;
+.l-wrap {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 96px 20px 160px;
+  box-sizing: border-box;
 }
 
-.p-catalog__content {
+.p-catalog{
   width: 800px;
-  margin: 0 auto;
+  margin: 0 auto 96px;
 }
 
 .c-title {
@@ -16,21 +19,24 @@
   text-align: center;
 }
 
-.c-heading {
+.c-badge {
   width: 80px;
   margin-bottom: 16px;
   padding: 3px 0;
   border-radius: 9999px;
-  background-color: #8c97ff;
   color: #fff;
   font-size: 16px;
   font-weight: bold;
   text-align: center;
+  display: inline-block;
+}
+
+.c-badge--purple {
+  background-color: #8c97ff;
 }
 
 .p-catalog__info {
   padding: 28px;
-  margin-bottom: 64px;
   border: 1px solid #000;
   border-radius: 20px;
   box-shadow: 12px 12px #ccccff;
@@ -38,24 +44,23 @@
 }
 
 .c-image {
-  text-align: center;
-}
-
-.c-image img {
+  display: block;
   max-width: 100%;
   height: auto;
+  margin: 0 auto;
 }
 
 .p-catalog__detail {
   margin-top: 28px;
 }
 
-.c-card-title {
+.c-title--sizeL {
   font-size: 18px;
   font-weight: bold;
 }
 
 .c-image--small {
+  display: inline-block;
   width: 18px;
   margin-left: 12px;
   vertical-align: middle;
@@ -78,19 +83,6 @@
   font-size: 12px;
 }
 
-.p-catalog__price {
-  margin-top: 24px;
-  font-size: 16px;
-}
-
-.p-catalog__yen {
-  font-size: 16px;
-}
-
-.p-catalog__tax {
-  font-size: 12px;
-}
-
 .p-catalog__tags {
   margin-top: 24px;
 }
@@ -104,3 +96,77 @@
   font-size: 14px;
   text-decoration: underline;
 }
+
+.c-price {
+  font-size: 16px;
+}
+
+.c-price__symbol {
+  font-size: 12px;
+}
+
+.c-price__value {
+  font-size: 16px;
+}
+
+.c-price__tax {
+  font-size: 12px;
+}
+
+.u-mt-24 {
+  margin-top: 24px;
+}
+
+.c-badge--green {
+  background-color:#7fe6a8;
+  color:#fff;
+}
+
+.p-product__list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-between;
+  row-gap:32px;
+}
+
+.p-product__item {
+  width: calc((100% - 48px) / 4);
+  min-width: 280px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 16px;
+  border: 1px solid #000;
+  border-radius: 20px;
+  box-shadow: 6px 6px 0 #7fe6a8;
+  box-sizing: border-box;
+}
+
+.c-image--product {
+  width: 100px;
+}
+
+.p-product__content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.c-title--sizeM {
+  font-size: 12px;
+}
+
+.c-button {
+  min-width: 100px;
+  padding: 5px 16px;
+  border-radius: 9999px;
+  font-size: 10px;
+  cursor:pointer;
+}
+
+.c-button:hover {
+  background-color: #333;
+  color: #fff;
+  border-color: #333;
+}
+
