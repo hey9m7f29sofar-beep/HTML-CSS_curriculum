@@ -149,7 +149,6 @@
 .p-product__content {
   display: flex;
   flex-direction: column;
-  gap: 16px;
 }
 
 .c-title--sizeM {
@@ -170,8 +169,8 @@
   border-color: #333;
 }
 
-.p-product__sale{
-  margin: 96px 0 0;
+.u-mt-96 {
+  margin-top: 96px;
 }
 
 .c-badge--yellow {
@@ -179,26 +178,20 @@
   font-size: 16px;
 }
 
-.p-scroll-container {
+.p-product__list--scroll {
+  flex-wrap: nowrap;
   display: flex;
   overflow-x: auto;
   gap: 36px;
-  padding:16px 20px 20px;
+  padding:0 20px;
 }
 
-.p-product__item--scroll{
+.p-product__item.p-product__item--scroll{
   position: relative;
-  width: calc((100% - 48px) / 4);
   flex-direction: column; 
   min-width: 200px;
-  display: flex;
-  align-items: center;
-  gap: 16px;
   padding: 20px;
-  border: 1px solid #000;
-  border-radius: 20px;
   box-shadow: 6px 6px 0 #fff48c;
-  box-sizing: border-box;
   text-align: center;
 }
 
@@ -206,20 +199,19 @@
   position: relative;
 }
 
-.c-discount-badge{
+.c-badge.c-badge--discount{
   position: absolute;
   top:-10px;
   left: -10px;
   background-color:#fb5b55;
-  padding: 2px 8px;
   font-size: 12px;
   font-weight: bold;
   color:#fff;
+  border-radius: 0;
 }
 
 .c-image--scroll{
   width: 150px;
-  align-items: center;
 }
 
 .c-soldout-badge{
@@ -232,23 +224,19 @@
   font-size: 16px;
   font-weight: bold;
   white-space: nowrap;
-
 }
 
-.p-product__content--scroll{
-  justify-content: center;
-  align-items: center;
+.u-mt-8 {
+  margin-top: 8px;
+}
+
+.u-mb-12 {
+  margin-bottom: 12px;
 }
 
 .c-price--scroll{
-  padding-top: 8px;
-  padding-bottom: 12px;
   color: #fb5b55;
   font-weight: bold;
-}
-
-.p-product__image--sold-out {
-  position: relative;
 }
 
 .p-product__image--sold-out::after {
@@ -264,7 +252,7 @@
 }
 
 .c-soldout-badge,
-.c-discount-badge {
+.c-badge.c-badge--discount {
   z-index: 2;
 }
 
