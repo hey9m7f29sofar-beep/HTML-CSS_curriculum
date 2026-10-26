@@ -205,8 +205,6 @@
   left: -10px;
   background-color:#fb5b55;
   font-size: 12px;
-  font-weight: bold;
-  color:#fff;
   border-radius: 0;
 }
 
@@ -224,7 +222,6 @@
   left: 50%;
   transform: translate(-50%, -50%);
   color: #fff;
-  padding: 8px 16px;
   font-size: 16px;
   font-weight: bold;
   white-space: nowrap;
